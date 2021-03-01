@@ -4,7 +4,7 @@
 
 The COVID-19 Early Warning System (CovEWS) is a real-time early warning system for COVID-19 related mortality risk. CovEWS stratifies patients into risk percentiles using a number of personal risk factors.
 
-This repository contains the source code for the neural time-varying Cox model used by CovEWS to make its predictions, and a synthetic mock dataset that can be used to run the source code.
+This repository contains the source code for the neural time-varying Cox model used by CovEWS to make its predictions, and a synthetic mock dataset that can be used to run the source code. A detailed description of CovEWS was published [Nature Communications](https://www.nature.com/articles/s41467-020-20816-7)
 
 ## Install
 
@@ -48,8 +48,10 @@ Please consider citing, if you reference or use our methodology, code or results
     @article{schwab2020covews,
         title={{Real-time Prediction of COVID-19 related Mortality using Electronic Health Records}},
         author={Patrick Schwab and Arash Mehrjou and Sonali Parbhoo and Leo Anthony Celi and Jürgen Hetzel and Markus Hofer and Bernhard Schölkopf and Stefan Bauer},
-        year={2020},
-        journal={arXiv preprint arXiv:2008.13412}
+        year={2021},
+        volume={12},
+        pages={1058},
+        journal={Nature Communications}
     }
 
 ### License
