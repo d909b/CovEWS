@@ -38,7 +38,7 @@ setup(
         "pandas>=1.0.3",
         "torch>=1.5.0",
         "torchtuples>=0.2.0",
-        "lifelines>=0.24.8",
+        "lifelines==0.24.8",
     ],
     classifiers=[
         "License :: OSI Approved :: MIT License",
